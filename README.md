@@ -14,11 +14,11 @@ This project implements a proxy server that listens on port 80 and forwards inco
 - `ai_usage.txt`: Text file
 
   
-##Features
-Custom Port Configuration: Apache2 configured to listen on port 10000.
-Access Restriction: Use of iptables to restrict access to port 10000 to the local machine.
-Systemd Service: A custom service (proxyServer.service) ensures the proxy server runs on boot and handles requests on port 80.
-Dynamic HTML Content: Two pages (index.html and error.html) provide feedback based on proxy calculations.
+## Features
+- Custom Port Configuration: Apache2 configured to listen on port 10000.
+- Access Restriction: Use of iptables to restrict access to port 10000 to the local machine.
+- Systemd Service: A custom service (proxyServer.service) ensures the proxy server runs on boot and handles requests on port 80.
+- Dynamic HTML Content: Two pages (index.html and error.html) provide feedback based on proxy calculations.
 
 ## Setup instruction 
 
