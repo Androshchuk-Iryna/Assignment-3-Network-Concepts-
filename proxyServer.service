@@ -5,7 +5,7 @@ Requires=apache2.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/socat TCP4-LISTEN:80,fork,pktinfo system:/etc/proxyServer.sh
+ExecStart=socat TCP4-LISTEN:80,fork,pktinfo system:/usr/local/bin/proxyServer.sh 
 Restart=on-failure
 RestartSec=5
 
