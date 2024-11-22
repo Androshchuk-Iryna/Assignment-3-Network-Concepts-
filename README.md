@@ -1,7 +1,5 @@
 # Assignment-3-Network-Concepts-
 
-# Assignment-3-Network-Concepts-
-
 
 This project implements a proxy server that controls access to web content based on specific calculations.
 
@@ -19,6 +17,7 @@ sudo ./configureSystem.sh
 - `proxyServer.sh`: Proxy script that determines which page to display
 - `proxyServer.service`: Systemd service configuration
 - `configureSystem.sh`: Installation script
+- `ai_usage.txt`: Text file
 
 ```bash
 curl localhost:portNum 
